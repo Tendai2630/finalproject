@@ -53,23 +53,25 @@ function refreshWeather(response) {
   
     searchCity(searchInput.value);
   }
-  function displayforecast()
-
+  function displayForecast();
+F
 let days= ["mon" ,"tue", "wed", "thurs", "fri"]
 let forecastHtml="";
 
-days.forEach(function(day)){
+days.forEach(function(day);) {
   forecastHtml=
   forecastHtml +
-
-  "<div class="weather-forecast>
+'
+   <div class = "weather-forecast">
       <div class="weather-forecast-day">
           <div class="weather-forecast-date">${day}</div>
           <div class="weather-forecast-icon">🌥️</div>
           <div class="weather-forecast-temperature"><strong>15°</strong>
-               9°</div>  
+               </div> 
+               <div>9°</div>
 </div>
-";})";
+';})'
+;
 
 let forecastElement=document.querySelector("#forecast");
 forecastElement.innerHTML= forecastHtml;
